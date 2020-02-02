@@ -7,11 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main.unity
-    guid: 63ede4a2ee8722d4b853d3bac49332f4
+    guid: faa6b364d79be5446aa20843dc4dbc39
   - enabled: 1
-    path: Assets/Scenes/Themes Menu.unity
-    guid: c5a67a0f0cfa0514890f48c262f629e2
+    path: Assets/Scenes/Themes menu.unity
+    guid: 1e52e823edfa43049957ea6062ef8aa2
   - enabled: 1
     path: Assets/Scenes/Tracking.unity
-    guid: 5700127c3ce7b25428ff4ac41640a3e7
+    guid: 80ba52d6aff45c04281927b9cef80133
   m_configObjects: {}
