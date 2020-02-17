@@ -423,7 +423,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 570950420}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1956478240}
+        m_MethodName: ChangeOrientationToAuto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &570950420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,7 +702,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1058397902}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1956478240}
+        m_MethodName: ChangeOrientationToLandscape
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1058397902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +749,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058397899}
   m_CullTransparentMesh: 0
+--- !u!1001 &1231480285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8297771417812107248, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: PortraitOrientetion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107249, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_Name
+      value: ScreenOrientation
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 470.13696
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 293.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -118.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297771417812107251, guid: 549b866b545d13f4d89696125c15c307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 549b866b545d13f4d89696125c15c307, type: 3}
 --- !u!1 &1845399316
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,7 +900,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1845399319}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1956478240}
+        m_MethodName: changeOrientationToPortrait
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1845399319
 MonoBehaviour:
   m_ObjectHideFlags: 0

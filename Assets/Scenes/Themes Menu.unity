@@ -714,7 +714,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 437125272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119771697}
+        m_MethodName: ChangeOrientationToLandscape
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &437125272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,7 +919,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 683593576}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119771697}
+        m_MethodName: ChangeOrientationToLandscape
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &683593576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,7 +1283,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1277697878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119771697}
+        m_MethodName: ChangeOrientationToLandscape
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1277697878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1581,7 +1614,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1820547680}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119771697}
+        m_MethodName: ChangeOrientationToAuto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1820547680
 MonoBehaviour:
   m_ObjectHideFlags: 0

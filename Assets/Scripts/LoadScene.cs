@@ -18,4 +18,16 @@ public class LoadScene : MonoBehaviour
     {
         Application.LoadLevel(sceneName);
     }
+    public void ChangeOrientationToLandscape()
+    {
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+    }
+    public void changeOrientationToPortrait()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+    public void ChangeOrientationToAuto()
+    {
+        Screen.orientation = ScreenOrientation.AutoRotation;
+    }
 }
