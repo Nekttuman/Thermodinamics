@@ -14,7 +14,7 @@ public class water_minimize : MonoBehaviour
     public void changeT()
     {
         evaporationSpeed += T.value;
-        Debug.Log(T.value);
+        //Debug.Log(T.value);
     }
 
     Vector3 psPosition,
@@ -41,5 +41,9 @@ public class water_minimize : MonoBehaviour
     {
         GetComponent<Squad_shange>().SquadChange();
         particleSys.transform.localPosition = psPosition;
+        //if (particleSys.isStopped || particleSys.isPaused)
+        
+        particleSys.Play();
+        
     }
 }

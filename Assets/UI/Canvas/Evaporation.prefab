@@ -1153,8 +1153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.674}
-  m_AnchoredPosition: {x: -3.1074982, y: -59.2}
-  m_SizeDelta: {x: -51.5, y: 116.94}
+  m_AnchoredPosition: {x: -3.1074982, y: -56.99}
+  m_SizeDelta: {x: -51.5, y: 149.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6865931752426568779
 CanvasRenderer:
@@ -1866,12 +1866,34 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6865931753020866886}
   m_Direction: 0
   m_MinValue: -1
-  m_MaxValue: 1
+  m_MaxValue: 7
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: SquadChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SquadChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6865931753008618358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,10 +1973,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 6865931753347913216}
   m_HandleRect: {fileID: 6865931752763235834}
   m_Direction: 0
-  m_MinValue: -1
-  m_MaxValue: 1
+  m_MinValue: 0.001
+  m_MaxValue: 0.5
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.25
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

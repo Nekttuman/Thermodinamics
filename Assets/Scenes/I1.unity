@@ -118,7 +118,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh37866
+  m_Name: pb_Mesh13440
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -627,6 +627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   S: {fileID: 1539910441}
   koef: 0.7
+  ps: {fileID: 0}
 --- !u!1 &1339033084
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,6 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   S: {fileID: 1539910441}
   koef: 0.9
+  ps: {fileID: 0}
 --- !u!1001 &377395154703038912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1149,31 +1151,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325910385}
-    - target: {fileID: 6865931751603684717, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Mercury
-      objectReference: {fileID: 0}
     - target: {fileID: 6865931752362962128, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1325910385}
-    - target: {fileID: 6865931752362962128, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Water
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752522039155, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325910385}
     - target: {fileID: 6865931752522039155, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Spirt
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1325910385}
     - target: {fileID: 6865931752561129344, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1306,84 +1293,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_MaxValue
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1628112710}
     - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SquadChange
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1325910387}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SquadChange
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931752966633922, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931753008618356, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_MinValue
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931753008618356, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_Value
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931753008618356, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_WholeNumbers
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6865931753008618356, guid: 324bb474d5e1237468a25e922ce8a397,
-        type: 3}
-      propertyPath: m_MaxValue
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6865931753018406772, guid: 324bb474d5e1237468a25e922ce8a397,
         type: 3}
       propertyPath: m_Name

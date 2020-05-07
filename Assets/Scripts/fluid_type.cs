@@ -44,6 +44,6 @@ public class fluid_type : MonoBehaviour
     private void Update()
     {
         GetComponent<water_minimize>().evaporationSpeed = T.value;
-        Debug.Log(ps.emission.rateOverTime);
+        //Debug.Log(ps.emission.rateOverTime);
     }
 }
