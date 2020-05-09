@@ -20,7 +20,7 @@ public class dianmometer_position : MonoBehaviour
     {
         pointer = GameObject.Find("pointer");
         pointer.transform.localPosition = new Vector3(pointer.transform.localPosition.x, nullPosition, pointer.transform.localPosition.z);
-        error = UnityEngine.Random.Range(0, 0.01f);
+        error = UnityEngine.Random.Range(0, 0.02f);
         Debug.Log(error);
     }
 

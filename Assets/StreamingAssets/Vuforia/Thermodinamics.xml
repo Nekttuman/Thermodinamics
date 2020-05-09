@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="marker_baker" size="5.000000 4.590909" />
+    <ImageTarget name="marker_scale1" size="5.000000 4.086134" />
+    <ImageTarget name="marker_shtativ" size="5.000000 4.447732" />
+    <ImageTarget name="marker_gir4" size="5.000000 4.899244" />
+    <ImageTarget name="marker_gir3" size="5.000000 4.899244" />
+    <ImageTarget name="marker_gir2" size="5.000000 4.899244" />
+    <ImageTarget name="marker_gir1" size="5.000000 4.899244" />
+    <ImageTarget name="1N_dinamo" size="100.000000 100.000000" />
+    <ImageTarget name="scale" size="100.000000 97.984886" />
+    <ImageTarget name="5N" size="5.000000 5.000000" />
+    <ImageTarget name="5N_dinamo" size="100.000000 100.000000" />
     <ImageTarget name="204_" size="50.000000 29.158464" />
     <ImageTarget name="208" size="50.000000 62.741859" />
     <ImageTarget name="207_p" size="50.000000 67.941177" />
