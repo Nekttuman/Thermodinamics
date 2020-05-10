@@ -42,7 +42,8 @@ public class dianmometer_position : MonoBehaviour
         else
         {
             
-            pointer.transform.localPosition = new Vector3(pointer.transform.localPosition.x, nullPosition - 1.28f * 10 * (setPosition + error), pointer.transform.localPosition.z);
+            pointer.transform.localPosition = new Vector3(pointer.transform.localPosition.x, nullPosition - 1.28f * 10 * (setPosition + error), 
+                                                            pointer.transform.localPosition.z);
         }
 
 
