@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/I1.unity
     guid: 3ea2aa1243bd95847904e8ae5a4df2a5
   - enabled: 1
-    path: Assets/Scenes/Themes menu.unity
+    path: Assets/Scenes/Themes Menu.unity
     guid: 1e52e823edfa43049957ea6062ef8aa2
   m_configObjects: {}
